@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hopitaux">
+        <item>Hôpital Mustapha Bacha</item>
+        <item>Hôpital Militaire Ain Naadja</item>
+        <item>Hôpital Bachir Mentouri</item>
+        <item>Hôpital Universitaire d\'Oran</item>
+        <item>Athena Medical Center</item>
+        <item>Hôpital E.P.H Ghardaïa</item>
+    </string-array>
+
+    <string-array name="laitude">
+        <item>36.767746</item>
+        <item>36.730568</item>
+        <item>36.733553</item>
+        <item>35.697947</item>
+        <item>36.430060</item>
+        <item>32.489969</item>
+    </string-array>
+
+    <string-array name="longitude">
+        <item>3.053126</item>
+        <item>3.064456</item>
+        <item>3.087458</item>
+        <item>-0.640956</item>
+        <item>6.643124</item>
+        <item>3.695633</item>
+    </string-array>
+
+</resources>
