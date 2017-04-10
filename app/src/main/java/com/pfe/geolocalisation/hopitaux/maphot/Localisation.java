@@ -76,7 +76,7 @@ public class Localisation extends FragmentActivity implements OnMapReadyCallback
      //   LatLng center = new LatLng(29.048073, 1.688602);
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(user));
         googleMap.moveCamera(CameraUpdateFactory.zoomTo((float) 5.4));
-
+        googleMap.setMyLocationEnabled(true);
    /*     Toast.makeText(Localisation.this, "Hop lat :"+h_lat+" | Hot lng :"+h_lng, Toast.LENGTH_SHORT).show();
         Toast.makeText(Localisation.this, "user lat :"+u_lat+" | User Lng :"+u_lng, Toast.LENGTH_SHORT).show(); */
 
@@ -85,8 +85,8 @@ public class Localisation extends FragmentActivity implements OnMapReadyCallback
         googleMap.addMarker(new MarkerOptions()
                 .position(hopital)
                 .title("Hopital")
-                 .snippet("Your destination")
-                 .icon(icon_hopital));
+                .snippet("Your destination")
+                .icon(icon_hopital));
 
         BitmapDescriptor icon_user = BitmapDescriptorFactory.fromResource(R.drawable.user);
         googleMap.addMarker(new MarkerOptions()
